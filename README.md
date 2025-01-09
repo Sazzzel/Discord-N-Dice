@@ -56,4 +56,11 @@ using light armour the warlock is a force to be reckoned with summoning infernal
 the warlock uses curses, hellfire and either demons or undeath the players can decide how best their heretic performs
 ---
 
+## Druid
+a Caster using the power of nature to crush foes or feed nations
+using medium armour thorns mushrooms and animal forms are just some of the druids destructive strength
+can use nature to heal and bless and utilize animal forms to become a jack of all trades hunting in silence or tanking with the strength of a bear this caster is not to be underestimated
+Main Stats Wisdom and any depending on what role you intend to fill (edited)
+---
+
 [Back to Contents](#contents)
