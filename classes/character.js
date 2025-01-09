@@ -144,10 +144,10 @@ class CharacterSheet {
     let decoration;
     switch (this.role) {
       case 'Warrior':
-        decoration = '****';
+        decoration = '<{}>!';
         break;
       case 'Mage':
-        decoration = '~~~~';
+        decoration = '<>.<>';
         break;
       case 'Rogue':
         decoration = '####';
@@ -161,7 +161,7 @@ class CharacterSheet {
       .map(([key, value]) => `${key.charAt(0).toUpperCase() + key.slice(1)}: ${value}`)
       .join('\n');
 
-    return `\n${decoration} Character Stats ${decoration}\nName: ${this.name}\nRole: ${this.role}\nHit Points: ${this.hitPoints}\n${stats}\n${decoration}\n`;
+    return `${decoration}${decoration}${decoration}${decoration}${decoration}${decoration}${decoration}\n${decoration}     Character Stats     ${decoration}\n${decoration}       ----------        ${decoration}\n${decoration}      Name: ${this.name}         ${decoration}\n${decoration}      Role: ${this.role}      ${decoration}\n${decoration}      Hit Points: ${this.hitPoints}     ${decoration}\n${decoration}      Strength: ${this.attributes.Strength}       ${decoration}\n${decoration}      Dexterity: ${this.attributes.Dexterity}      ${decoration}\n${decoration}      Constitution: ${this.attributes.Constitution}   ${decoration}\n${decoration}      Intelligence: ${this.attributes.Intelligence}   ${decoration}\n${decoration}      Wisdom: ${this.attributes.Wisdom}          ${decoration}\n${decoration}      Charisma: ${this.attributes.Charisma}       ${decoration}\n${decoration}${decoration}${decoration}${decoration}${decoration}${decoration}${decoration}\n`;
   }
 }
 
