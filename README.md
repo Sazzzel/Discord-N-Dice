@@ -11,7 +11,7 @@
 ## Roles
 
 ### <{}>!<{}>!<{}>!<{}>!<{}>!<{}>!<{}>!<{}>!<{}>!<{}>!<{}>!<{}>!<{}>!<{}>!<{}>!{}>!<{}>!{}>!<{*}>
-### Warrior
+### <{}>!<{}> Warrior
 ### <{}>!<{}>!<{}>!<{}>!<{}>!<{}>!<{}>!<{}>!<{}>!<{}>!<{}>!<{}>!<{}>!<{}>!<{}>!{}>!<{}>!{}>!<{*}>
 A physical fighter focusing on melee,
 using the heaviest armour and shields(should the player choose) makes the warrior an amazing frontline
