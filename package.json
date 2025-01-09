@@ -1,0 +1,13 @@
+{
+  "name": "discord-n-dice",
+  "version": "1.0.0",
+  "type":"module",
+  "description": "- [UXD (User Experience Design)](#user-experience-ux)\r - [Roles ](#roles)",
+  "main": "dice.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
