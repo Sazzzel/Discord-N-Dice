@@ -144,13 +144,13 @@ Contents
 ## Player Commands
 roll [stat] eg :roll str
 
-roll [skill] eg roll athletics
+Roll [skill] eg roll athletics
 
-roll [save] eg roll Reflex
+Roll [save] eg roll Reflex
 
-roll hit [item/spell] eg Roll hit shortsword/roll frost bolt
+Roll hit [item/spell] eg Roll hit shortsword/roll frost bolt
 
-roll damage [item/spell] eg Roll damage Greatsword/Fireball
+RollDamage [item/spell] eg Roll damage Greatsword/Fireball
 
 Roll Dice [Dice Type] [Number of Dice]
 
@@ -166,65 +166,65 @@ CS Edit [Character ID]. Edit a character Sheet Asks what you would like to edit 
 
 CS Delete/Remove/Kill [character ID]. Removes a Character Sheet
 
-Show Stats. [character ID] Shows current hp stats and spell slots
+ShowStats. [character ID] Shows current hp stats and spell slots
 
-Show Inv. [character ID] view characters weapons/inventory
+ShowInv. [character ID] view characters weapons/inventory
 
-Show Spellbook [Character ID] view a characters Spell's
+ShowSpellbook [Character ID] view a characters Spell's
 
-CS heal [Character ID] [Number] Adds a number of hitpoints
+CSheal [Character ID] [Number] Adds a number of hitpoints
 
-Damage [character ID] [Number] Removes a Number of Hit Points or Temporary Hit Points if Available
+CSDamage [character ID] [Number] Removes a Number of Hit Points or Temporary Hit Points if Available
 
-CS Temp Hp [Number]
+CSTempHp [Number]
 
 ## General Commands commands anyone can use 
 
 Help [general,CS,DM Leave Blank for a list of all commands]
 
-appoint dm [User ID]. appoints a dm to host
+AppointDM [User ID]. appoints a dm to host
 
-vkick dm. votes to remove the current dm
+VKick DM. votes to remove the current dm
 
-vkick [User ID]
+VKick [User ID]
 
-pinv [User ID] invites a User to Play May need Dm to Accept
+PInv [User ID] invites a User to Play May need Dm to Accept
 
-pJoin [Party ID] Requests to Join A Party
+PJoin [Party ID] Requests to Join A Party
 
 ## DM commands. dungeon master only commands
 
 Roll Commands Same as the Player Commands
 
-Give Xp [All or Character ID] [Number]. Gives xp to all or just one player
+GiveXp [All or Character ID] [Number]. Gives xp to all or just one player
 
-Give Gold [All or Character id] [Number]. Gives 
+GiveGold [All or Character id] [Number]. Gives 
 
-Give item [Character ID] [Item ID] Gives an item to set player
+GiveItem [Character ID] [Item ID] Gives an item to set player
 
-level up [all or Character ID] Levels up the party or a single character
+LevelLp [all or Character ID] Levels up the party or a single character
 
-Level down [All or Character ID] Levels Down the party or a single character
+LevelDown [All or Character ID] Levels Down the party or a single character
 
-set level [Character id] [Number]
+SetLevel [Character id] [Number]
 
-afflict [Status ID] afflict a status effect to target
+Afflict [Status ID] afflict a status effect to target
 
 Encounter [Encounter ID leave blank to create a blank encounter] starts an encounter for the party
 
-monster [Monster ID] adds something to an encounter
+Monster [Monster ID] adds something to an encounter
 
-hp add/remove [Target ID] To add or remove hp to a monster or player
+Damage And Heal [Target ID] Works the Same as Character Commands But can Effect DM monsters
 
-remove Item [Character ID] [Item ID] Removes an item to simulate breaks or to remove an item to replace it with a cursed one
+RemoveItem [Character ID] [Item ID] Removes an item to simulate breaks or to remove an item to replace it with a cursed one
 
-Add skill [Target ID] [New Skill Name]
+AddSkill [Target ID] [New Skill Name]
 
-Add Spell [Target ID] [New Spell Name]
+AddSpell [Target ID] [New Spell Name]
 
-Add Stat [Target ID] [Number of Stat use - To Deduct]
+AddStat [Target ID] [Number of Stat use - To Deduct]
 
-Temp hp [Target ID] [Number] add temp hp to an enemy or player set to zero to remove(note. Taking Damage Removes Temporary Hit points Before hp)
+TempHp [Target ID] [Number] add temp hp to an enemy or player set to zero to remove(note. Taking Damage Removes Temporary Hit points Before hp)
 
 Accept/Deny Accepts or Denies a user joining
 
